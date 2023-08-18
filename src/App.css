@@ -35,7 +35,7 @@ body{
   font-weight: normal;
   overflow-x: hidden;
   position: relative;
-  background-color: aliceblue !important;
+  background-color: #dcf0e7 !important;
   color: black !important;
   font-family: "FiraCode" !important ;
 }
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6{
 /* NAVBAR */
 
 .navbar {
-  background-color: #f5e3ee; 
+  background-color: #f0e4eb; 
   padding: 10px 0;
   position: fixed;
   width: 100%;
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6{
   color: #f5e3ee;
 }
 
-/* Show the toggle button only on smaller screens */
+/* RESPONSIVE NAVBAR */
 @media (max-width: 991px) {
   .navbar-toggler {
     display: block;
@@ -207,6 +207,83 @@ h1, h2, h3, h4, h5, h6{
   .socialMedia a:hover img {
     filter: brightness(0) saturate(100%) invert(100%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
   }
+}
+
+/* PRESENTATION PAGE */
+
+.presentation {
+  margin-top: 0;
+  padding: 5vh 0vh 10vh 12vh;
+  background-image: url('./assets/images/p5.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.presentation .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 1vh 2vh;
+  background: linear-gradient(90.21deg, rgba(177, 213, 210, 0.5) -5.91%, rgba(33, 128, 128, 0.5) 111.58%);
+  border: none;
+  border-radius: 10vh;
+  font-size: 2.5vh;
+  margin-bottom: 3vh;
+  display: inline-block;
+}
+.presentation h1 {
+  font-size: 7vh;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 3vh;
+  display: block;
+}
+.presentation p {
+  color: #6f6c6c;
+  font-size: 2vh;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.presentation button {
+  background-color: #4a787a;
+  color: #e6f4f5; 
+  font-weight: 700;
+  font-size: 2vh;
+  margin-top: 6vh;
+  letter-spacing: .5vh;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: .6vh;
+  border-radius: 2vh;
+}
+.presentation button svg {
+  margin-left: 10px;
+  transition: 0.4s ease-in-out;
+  line-height: 1;
+}
+.presentation button:hover svg {
+  margin-left: 2.5vh;
+}
+.presentation img {
+  animation: updown 5s linear infinite;
+  width: 80vh;
+  padding-left: 10vh;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
 }
 
 
