@@ -306,3 +306,64 @@ h1, h2, h3, h4, h5, h6{
     min-height: 70vh;
   }
 }
+
+@media (max-width: 850px){
+  .ProjectImg {
+    width: 35vh;
+  }
+  .slide {
+    width: 100%;
+    min-height: 70vh;
+  }
+}
+
+/* SKILLS PAGE */
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #dcf0e7;
+  background-image: url("./assets/images/p5.png") ;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.techSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vh;
+  max-width: 110vh;
+  width: 100%;
+}
+
+.skillCard {
+  background-color: rgba(236, 228, 236, 0.858);
+  padding: 2vh;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 25vh;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+.skillCard:hover {
+  transform: scale(1.2);
+  background-color: rgba(35, 123, 122, 0.9);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.632);
+  color: #f5e3ee;
+}
+
+.skillImg {
+  width: 10vh;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1vh;
+}
+
+.skillName {
+  font-size: 2vh;
+}
