@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6{
 
 .presentation {
   margin-top: 0;
-  padding: 5vh 0vh 16vh 12vh;
+  padding: 5vh 5% 16vh 5%;
   background-image: url('./assets/images/p5.png');
   background-position: top center;
   background-size: cover;
@@ -286,6 +286,49 @@ h1, h2, h3, h4, h5, h6{
   border-right: 0.08em solid #666;
 }
 
+@media screen and (max-width: 950px) {
+  .presentation {
+    width: 100%;
+    padding: 5vh 2% 8vh 0%; 
+  }
+
+  .presentation .tagline{
+    font-size: 2.5vh;
+  }
+
+  .presentation h1 {
+    font-size: 3.5vh; 
+    width: 90%;
+  }
+
+  .presentation p {
+    font-size: 2.3vh; 
+  }
+  .presentation img {
+    max-width: 40vh; 
+    padding-top: 5vh;
+    padding-left: 0px;
+    animation: leftright 5s linear infinite; 
+  }
+
+  .presentation button{
+    font-size: 1.8vh;
+  }
+  @keyframes leftright {
+    0% {
+      transform: translateX(-20px);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
+  }
+
+}
+
+
 
 /* PROJECTS PAGE  */
 
@@ -329,6 +372,7 @@ h1, h2, h3, h4, h5, h6{
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 5vh;
 }
 
 .techSkills {
