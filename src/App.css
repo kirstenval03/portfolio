@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6{
 
 .presentation {
   margin-top: 0;
-  padding: 5vh 0vh 10vh 12vh;
+  padding: 5vh 0vh 16vh 12vh;
   background-image: url('./assets/images/p5.png');
   background-position: top center;
   background-size: cover;
@@ -287,4 +287,22 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+/* PROJECTS PAGE  */
 
+.ProjectImg {
+  width: 100vh;
+}
+.slide {
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (max-width: 1050px){
+  .ProjectImg {
+    width: 65vh;
+  }
+  .slide {
+    width: 100%;
+    min-height: 70vh;
+  }
+}

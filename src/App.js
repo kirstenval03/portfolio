@@ -3,6 +3,8 @@ import { NavBar } from './components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Presentation } from './pages/Presentation';
+import { Projects } from './pages/Projects';
+import { Skills } from './pages/Skills';
 
 
 
@@ -11,6 +13,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Presentation/>
+      <Projects/>
+      <Skills/>
      
     </div>
   );
