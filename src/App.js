@@ -6,6 +6,7 @@ import { Presentation } from './pages/Presentation';
 import { Projects } from './pages/Projects';
 import { Skills } from './pages/Skills';
 import { Contact } from './pages/Contact';
+import { Email } from './pages/Email';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Projects/>
       <Skills/>
       <Contact/>
+      <Email/>
      
     </div>
   );
