@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d20f5b8.css",
+    "main.js": "/static/js/main.edfd20cf.js",
+    "static/js/787.63095922.chunk.js": "/static/js/787.63095922.chunk.js",
+    "static/media/foto1.png": "/static/media/foto1.eda63799cbc74ce49938.png",
+    "static/media/PWattpad.png": "/static/media/PWattpad.54accab4f328e895cb7a.png",
+    "static/media/PHoneyHarvest.png": "/static/media/PHoneyHarvest.718f8c67beca8a00a3c4.png",
+    "static/media/PFormula1.png": "/static/media/PFormula1.4c87cd2602c2e789ae93.png",
+    "static/media/FiraCode.ttf": "/static/media/FiraCode.4938e54ab2f06530a084.ttf",
+    "static/media/emailME.png": "/static/media/emailME.b0ef13e0bb3aff69c62a.png",
+    "static/media/KirsVG.png": "/static/media/KirsVG.c7c99d428cb97dae202d.png",
+    "static/media/Soria.ttf": "/static/media/Soria.087527ae9c47f8daf2ad.ttf",
+    "static/media/p5.png": "/static/media/p5.c7f29063545dcb6222a7.png",
+    "static/media/github.svg": "/static/media/github.781f29e21894345a9ceeee305a0d95d5.svg",
+    "static/media/linkedln.svg": "/static/media/linkedln.c4abb57d33634acbbd0b5475fa3297af.svg",
+    "index.html": "/index.html",
+    "main.1d20f5b8.css.map": "/static/css/main.1d20f5b8.css.map",
+    "main.edfd20cf.js.map": "/static/js/main.edfd20cf.js.map",
+    "787.63095922.chunk.js.map": "/static/js/787.63095922.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d20f5b8.css",
+    "static/js/main.edfd20cf.js"
+  ]
+}
