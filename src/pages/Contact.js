@@ -2,7 +2,7 @@ import { BookmarkHeartFill } from 'react-bootstrap-icons'
 export const Contact = () => {
 
     return (
-<div className="Contact">
+<div className="Contact" id='socialMedia'>
     <h1>My Social Media</h1>
     <h3>Click and add me! <BookmarkHeartFill size={40}/> </h3>
     <div className="SocialMedia">

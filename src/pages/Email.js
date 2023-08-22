@@ -27,7 +27,7 @@ export const Email = () => {
         setFormData((prevData) => ({ ...prevData, [name]: value }));
     };
     return (
-        <div className='emailMe'> 
+        <div className='emailMe' id="email-section"> 
         <img src={email} className='emailImg' alt='emailImg'/>
 
         <div className="EmailForm">
