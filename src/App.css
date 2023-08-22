@@ -411,3 +411,12 @@ h1, h2, h3, h4, h5, h6{
 .skillName {
   font-size: 2vh;
 }
+
+/* CONTACT PAGE */
+.Contact{
+  display: flex;
+  flex-direction: column;
+}
+.profileImg{
+  height: 40vh;
+}
