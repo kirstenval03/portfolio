@@ -11,7 +11,7 @@ import foto1 from "../assets/images/foto1.png"
 export const Presentation = () => {
   const [loopI, setLoopI] = useState(0);
   const [deleting, setDeleting] = useState(false);
-  const txtAnimation = ["Full Stack Developer", " Frontend Developer", "Backend Developer"];
+  const txtAnimation = [" a Full Stack Developer", "an Internationalist"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(200 - Math.random() * 100);
   const [index, setIndex] = useState(1);
@@ -61,10 +61,10 @@ return (
           <span className='tagline'>
             Welcome to my Portfolio!
           </span>
-          <h1> {`Hi I'm Kirsten, a`}
+          <h1> {`Hi I'm Kirsten, `}
             <span className='wrap'> {text} </span>
           </h1>
-          <p>About me text...</p>
+          <p>With a versatile full-stack skill set, and I bring a unique twist—I'm also an Internationalist. This diverse background equips me with both technical prowess for crafting exceptional websites and vital soft skills like effective public speaking and seamless teamwork.</p>
           <button>
             <Link
               to="socialMedia"

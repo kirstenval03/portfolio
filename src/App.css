@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6{
 .presentation img {
   animation: updown 5s linear infinite;
   width: 80vh;
-  padding-left: 10vh;
+  padding-left: 20vh;
 }
 @keyframes updown {
     0% {
@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6{
   }
 
   .presentation p {
-    font-size: 2.3vh; 
+    font-size: 2vh; 
   }
   .presentation img {
     max-width: 40vh; 
@@ -344,6 +344,14 @@ h1, h2, h3, h4, h5, h6{
 .slide {
   width: 100%;
   min-height: 100vh;
+}
+
+.linkP{
+  text-decoration: none;
+  color: #5d2046;
+}
+.linkP:hover {
+  color:#ce519e ;
 }
 @media (max-width: 1190px){
   .ProjectImg {
